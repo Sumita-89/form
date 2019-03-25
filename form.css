@@ -1,0 +1,66 @@
+*{
+    box-sizing: border-box;
+}
+
+.container {
+    overflow: hidden; 
+    display: flex;
+      }
+
+  .floatleft {
+    float: left;
+    width: 50%;
+     }
+   
+  .floatright {
+  float:right;
+   width: 50%;
+   background: blue;
+   font: blue;
+  }
+    
+  form {
+    border: 1px solid #c6c7cc;
+    border-radius: 5px;
+    font-family: 10px "Helvetica Neue", Helvetica, Arial, sans-serif;
+    overflow:hidden;
+    width: 50px;
+    margin: 50px 0;
+}
+    input,
+    select{
+        border-radius:5px;
+        margin: 0px;
+        font: 100 16px/22px "Lato", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+       }
+tr,td{
+    letter-spacing: 1px;
+    padding: 5px;
+    }
+ table {
+        table-layout: fixed;
+        width: 50%;
+        height: 90%;
+        border: 1px solid whitesmoke;
+        border-collapse: collapse;
+        border-spacing: 0 11px;
+        display: inline-block;
+      }
+
+.btn-default {
+    border: 0;
+    background: #22a84ad8;
+    padding: 11px 30px;
+    font-size: 14px;
+          }
+  .btn-default:hover {
+    background: #77a198;
+  }
+  thead label :hover {
+        background: white;
+        text-decoration: underline;
+        font-weight:bold; 
+        border-radius:5px;
+        padding : 25px 50px;        
+    }
+    
